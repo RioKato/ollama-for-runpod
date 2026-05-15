@@ -20,4 +20,4 @@ RUN chmod +x /start.sh
 
 EXPOSE 22
 
-CMD ["./start.sh"]
+ENTRYPOINT ["/start.sh"]
